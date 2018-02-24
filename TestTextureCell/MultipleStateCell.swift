@@ -66,7 +66,6 @@ class MultipleStateCell: ASCellNode {
 	@objc func stateChanged() {
 		self.state = self.state.toggle()
 		self.transitionLayout(withAnimation: true, shouldMeasureAsync: false, measurementCompletion: nil)
-		self.setNeedsLayout()
 	}
 
 
