@@ -7,23 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4272CFE420418A1F00CA4C79 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272CFE020418A1F00CA4C79 /* PINRemoteImage.framework */; };
-		4272CFE520418A1F00CA4C79 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272CFE120418A1F00CA4C79 /* PINCache.framework */; };
-		4272CFE620418A1F00CA4C79 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272CFE220418A1F00CA4C79 /* PINOperation.framework */; };
-		4272CFE720418A1F00CA4C79 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272CFE320418A1F00CA4C79 /* AsyncDisplayKit.framework */; };
 		4272CFEA20418B4900CA4C79 /* MultipleStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272CFE920418B4900CA4C79 /* MultipleStateCell.swift */; };
 		42EF79832040058800C486E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF79822040058800C486E3 /* AppDelegate.swift */; };
 		42EF79852040058800C486E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF79842040058800C486E3 /* ViewController.swift */; };
 		42EF79882040058800C486E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EF79862040058800C486E3 /* Main.storyboard */; };
 		42EF798A2040058800C486E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EF79892040058800C486E3 /* Assets.xcassets */; };
 		42EF798D2040058800C486E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EF798B2040058800C486E3 /* LaunchScreen.storyboard */; };
+		C9BD5DA6BFF237D9C8FBEBCD /* Pods_TestTextureCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2F49097A38F477D0B6F3FC /* Pods_TestTextureCell.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4272CFE020418A1F00CA4C79 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
-		4272CFE120418A1F00CA4C79 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
-		4272CFE220418A1F00CA4C79 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
-		4272CFE320418A1F00CA4C79 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		4272CFE920418B4900CA4C79 /* MultipleStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleStateCell.swift; sourceTree = "<group>"; };
 		42EF797F2040058800C486E3 /* TestTextureCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextureCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EF79822040058800C486E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +25,9 @@
 		42EF79892040058800C486E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EF798C2040058800C486E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42EF798E2040058800C486E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A917328E1BC85FAAE3CCA2 /* Pods-TestTextureCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTextureCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTextureCell/Pods-TestTextureCell.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2F49097A38F477D0B6F3FC /* Pods_TestTextureCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTextureCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD954773C300CD9D9ACD9D54 /* Pods-TestTextureCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTextureCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTextureCell/Pods-TestTextureCell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4272CFE420418A1F00CA4C79 /* PINRemoteImage.framework in Frameworks */,
-				4272CFE720418A1F00CA4C79 /* AsyncDisplayKit.framework in Frameworks */,
-				4272CFE620418A1F00CA4C79 /* PINOperation.framework in Frameworks */,
-				4272CFE520418A1F00CA4C79 /* PINCache.framework in Frameworks */,
+				C9BD5DA6BFF237D9C8FBEBCD /* Pods_TestTextureCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +45,10 @@
 		42EF79762040058800C486E3 = {
 			isa = PBXGroup;
 			children = (
-				4272CFE320418A1F00CA4C79 /* AsyncDisplayKit.framework */,
-				4272CFE120418A1F00CA4C79 /* PINCache.framework */,
-				4272CFE220418A1F00CA4C79 /* PINOperation.framework */,
-				4272CFE020418A1F00CA4C79 /* PINRemoteImage.framework */,
 				42EF79812040058800C486E3 /* TestTextureCell */,
 				42EF79802040058800C486E3 /* Products */,
+				B719463F4A93B6817BF0E6C1 /* Pods */,
+				6D572AE85F0218D719CABEB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +74,23 @@
 			path = TestTextureCell;
 			sourceTree = "<group>";
 		};
+		6D572AE85F0218D719CABEB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F49097A38F477D0B6F3FC /* Pods_TestTextureCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B719463F4A93B6817BF0E6C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55A917328E1BC85FAAE3CCA2 /* Pods-TestTextureCell.debug.xcconfig */,
+				CD954773C300CD9D9ACD9D54 /* Pods-TestTextureCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,10 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EF79912040058800C486E3 /* Build configuration list for PBXNativeTarget "TestTextureCell" */;
 			buildPhases = (
+				AA972EED7ABC87E0AD8CD4B0 /* [CP] Check Pods Manifest.lock */,
 				42EF797B2040058800C486E3 /* Sources */,
 				42EF797C2040058800C486E3 /* Frameworks */,
 				42EF797D2040058800C486E3 /* Resources */,
-				4272CFE820418A3700CA4C79 /* ShellScript */,
+				9B399FE9377D824ADF263037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,26 +161,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4272CFE820418A3700CA4C79 /* ShellScript */ = {
+		9B399FE9377D824ADF263037 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/AsyncDisplayKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PINCache.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PINOperation.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/PINRemoteImage.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTextureCell/Pods-TestTextureCell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AsyncDisplayKit.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PINCache.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PINOperation.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTextureCell/Pods-TestTextureCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA972EED7ABC87E0AD8CD4B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTextureCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -317,6 +355,7 @@
 		};
 		42EF79922040058800C486E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A917328E1BC85FAAE3CCA2 /* Pods-TestTextureCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +375,7 @@
 		};
 		42EF79932040058800C486E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD954773C300CD9D9ACD9D54 /* Pods-TestTextureCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

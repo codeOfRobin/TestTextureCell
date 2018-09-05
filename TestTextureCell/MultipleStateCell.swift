@@ -45,9 +45,6 @@ class MultipleStateCell: ASCellNode {
 
 		super.init()
 
-
-		self.automaticallyManagesSubnodes = true
-
 		smallRedNode.style.width = ASDimensionMake(100)
 		smallRedNode.style.height = ASDimensionMake(100)
 		smallRedNode.backgroundColor = .red
@@ -61,11 +58,21 @@ class MultipleStateCell: ASCellNode {
 		toggle.backgroundColor = .white
 
 		switchView?.addTarget(self, action: #selector(stateChanged), for: .valueChanged)
+        self.addSubnode(smallRedNode)
+        self.addSubnode(toggle)
 	}
 
 	@objc func stateChanged() {
 		self.state = self.state.toggle()
 		self.transitionLayout(withAnimation: true, shouldMeasureAsync: false, measurementCompletion: nil)
+        switch state {
+        case .one:
+            self.addSubnode(smallRedNode)
+            bigBlueNode.removeFromSupernode()
+        case .two:
+            self.addSubnode(bigBlueNode)
+            smallRedNode.removeFromSupernode()
+        }
 		self.setNeedsLayout()
 	}
 
